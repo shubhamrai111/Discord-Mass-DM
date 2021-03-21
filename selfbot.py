@@ -5,7 +5,6 @@ from discord.ext import commands
 token = 'User Token Here'
 
 prefix = 'gay!'
-client = discord.Client()
 client = commands.Bot(
     description='Dropout',
     command_prefix=prefix,
@@ -20,7 +19,7 @@ async def on_ready():
 
 @client.command()
 async def dmall(ctx, *, message):
-    for user in list(ctx.guild.members):
+    for user in ctx.guild.members:
         try:
             await user.send(message)
             print(f"Sent To {user}")
