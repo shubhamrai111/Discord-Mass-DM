@@ -2,9 +2,9 @@ import discord
 import asyncio
 from discord.ext import commands
 
-token = 'User Token Here'
+token = 'Njk2NTk4Njg1MDA1MzgxNjQz.XorEFA.aYbYh2XruBZ5HNbORegRp6h5NK8'
 
-prefix = 'gay!'
+prefix = 'bhu+'
 client = commands.Bot(
     description='Dropout',
     command_prefix=prefix,
