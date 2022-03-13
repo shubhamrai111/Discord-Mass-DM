@@ -2,7 +2,7 @@ import discord
 import asyncio
 from discord.ext import commands
 
-token = 'Njk2NTk4Njg1MDA1MzgxNjQz.XorEFA.aYbYh2XruBZ5HNbORegRp6h5NK8'
+token = 'OTIxODI0MjU0Mzk4NDY0MDUx.Yb4hvA.kLeC1RBkoSMTayN-5f4HZ7uu7mw'
 
 prefix = 'bhu+'
 client = commands.Bot(
